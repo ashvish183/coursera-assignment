@@ -1,19 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta nameport="viewport" content="width=divice-width, initial-scale=1">
-	<title>module-3</title>
-	
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-	<script src="java-script/jquery-2.1.4.min.js"></script>
-	<script src="java-script/bootstrap.min.js"></script>
-    <script src="java-script/java.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>module-3-assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     
-    	
+  </head>
+<body>
+
+  
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+<header>
+    <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">  
+           <div class="navbar-brand" >
+               <span id="px">Food, LLC</span>
+           </div>
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" >
+               <span class="sr-only"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+           </button>
+          </div>
+         <div id="collapsable-nav" class="collapse navbar-collapse"> 
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+                
+                 <li class="visible-xs text-center h2">Chicken</li>
+                 <li class="visible-xs text-center h2">Paneer</li>
+                 <li class="visible-xs text-center h2">Biryani</li>
+
+            </ul>
+
+
+         </div>  
+        </div>
+    </nav>
+</header>
+
+  <h1 class="text-center">Our Menu</h1>
+  
+  <header class="container-fluid">
+
+      <nav class="row">
+        <div>
+            
+            <div class="col-xs-12">
+                <div class="column">
+                <div class="heading pull-right">Chicken</div><br>
+                <p class="text">Modern varieties of chicken such as the Cornish Cross, are bred specifically for meat production, with an emphasis placed on the ratio of feed to meat produced by the animal. The most common breeds of chicken consumed in the U.S. are Cornish and White Rock. Chickens raised specifically.</p>
+            </div>
+            </div>
+            
+            <div class="col-xs-12">
+                <div class="column">
+
+                <div class="heading pull-right">Paneer</div><br>
+                <p class="text">Paneer (pronounced [pəniːr]) is a fresh cheese common in the Indian subcontinent. It is an unaged, non-melting soft cheese made by curdling milk with a fruit- or vegetable-derived acid, such as lemon juice. Its acid-set form, (cheese curd) before pressing, is called chhena.</p>
+            </div>
+            </div>
+            
+            <div class="col-xs-12">
+                <div class="column">
+
+                <div class="heading pull-right">Biryani</div><br>
+                <p class="text">Biryani (pronounced [bɪr.jaːniː]) is a mixed rice dish with its origins among the Muslims of the Indian subcontinent.[1][2][3] It can be compared to mixing a curry, later combining it with semi-cooked rice separately. This dish is especially popular throughout the Indian subcontinent.</p>
+            </div>
+            </div>
+        </div>
+          
+      </nav>
+
+  </header>
 </body>
 </html>
